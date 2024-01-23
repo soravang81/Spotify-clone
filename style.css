@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    min-height: 5rem;
+    min-width: 74vw;
+    position: fixed;
+    top:0px;
+}
+main{
+    border: 1px solid black;
+    margin-top: 5rem;
+    min-width: 74vw;
+    min-height: 100vh;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+}
+.btnleft{
+    padding:1.2rem;
+    height:1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+}
+.homebar{
+    min-height: 7rem;
+    min-width: 24vw;
+    border: 1px solid black;
+}
+.homebar{
+    display: flex;
+    flex-direction: column;
+}
+.homebarbtn{
+    padding:1.5rem 3rem;
+}
+.playlistbar{
+    min-width:24vw;
+    min-height: 100vh;
+    border: 1px solid black;
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.btnright{
+    padding:0.8rem 2rem;
+}
+.left{
+    gap:20px;
+    display: flex;
+}
+.playlists{
+    padding:2rem;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns:auto auto auto;
+    gap:1rem;
+}
+.playlistbar .playlist{
+    padding:1.5rem 8rem;
+}.playlist{
+    padding:1.5rem 6rem;
+}
+.footer{
+    border: 1px solid black;
+    min-height: 5rem;
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+    background-color: grey;
+}
